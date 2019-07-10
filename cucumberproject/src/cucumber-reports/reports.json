@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-10T05:46:10.121Z",
+        "line": 8,
+        "name": "Saun and Lucia are not in the range",
+        "description": "",
+        "id": "shout-feature;saun-and-lucia-are-not-in-the-range",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Saun is 1000 meters away from Lucia",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 722700,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Saun Shouts \"Free Coffee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Free Coffee\"",
+                  "offset": 12
+                }
+              ],
+              "location": "ShoutStepDefination.saun_Shouts(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Lucia cannot listen to the message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Shout Feature",
+    "description": "",
+    "id": "shout-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeletons/shock.feature",
+    "tags": []
+  }
+]
